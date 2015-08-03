@@ -74,7 +74,7 @@ HamburgerButton is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "HamburgerButton"
+pod 'HamburgerButton' , :git => 'https://github.com/giuseppenucifora/HamburgerButton.git'
 ```
 
 ## Author
