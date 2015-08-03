@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C5ED9602D45B2B9AB3A61AD6085BD4 /* Pods-HamburgerButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12C8BD763B2658352EF9AF2E657CC6 /* Pods-HamburgerButton_Example-dummy.m */; };
+		0B7F951B9C84228107DCF5FE532990C7 /* HamburgerButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B018B99C96DEFBF4E2115361CBFDA031 /* HamburgerButton.bundle */; };
+		122066F54AB32EC9C70FF010078E2BFC /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F468BFA5D26D1C563E9F8087AE7FDBD5 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FF1BF851F42CCE7CEA1A3573781AF4 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF425CDB60D53E7418590A03B490F634 /* SwiftSupport.swift */; };
+		3A4DCDBEEBAB580D56C69715680B9F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */; };
+		427DB164362AB28B424EDBD75CE6B114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */; };
+		515E48BEDF072BF53F877B9D209C08A2 /* Pods-HamburgerButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCDBB94ED71F92D65F506A60ED28FCC /* Pods-HamburgerButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BCF607F3A15B367DEAFDDD24430249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */; };
+		5A77C5F8806CD8AB6551AA900C5B903D /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE04F01AB5AFE6DB969F3254FCA23AC /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A040D61B6F79F400F5A8C9 /* LBHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A040D41B6F79F400F5A8C9 /* LBHamburgerButton.m */; };
+		68A040D91B6F7A1100F5A8C9 /* LBHamburgerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A040D81B6F7A1100F5A8C9 /* LBHamburgerButton.h */; };
+		705635138A2651EC4E1DDA39EB49F7E5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E23C46F71076CF4B5EACD488322C34 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AF9768A079CE1332666E1F4DED6B90 /* HamburgerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B5ECBFF76124646668783FA77197F6 /* HamburgerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7163D6C2D4E42DE2E0030D74736DEA86 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F81BFFCB8C34D40F36B2C468207F69 /* FBSnapshotTestCasePlatform.m */; };
+		71F86F7C428FF4AA7A059F25EC87B033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */; };
+		779EEFAADC9462CC073AC24DF06C579E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8F43B5A8C25FE501B3085B04E59978 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D493B12A413B4971E66AEBD2DF7384 /* Pods-HamburgerButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B47B130BD9A62E09567FE8FCB0796 /* Pods-HamburgerButton_Tests-dummy.m */; };
+		7BC6D15A2C4F2757D7164D9973F56BBD /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47052B645BFA4E9EA2C1091C1B8C0B /* UIImage+Diff.m */; };
+		8058472FCDFCD7BC08B86B402703D764 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CA195396AAF16773B02157E6038191 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859A75A6F732CA92DDDAF17F8BD36EC3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7CE48EFAD9A3CEA07D7F2958DC224F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB94E6CEB3C70DA9A522B69D44377C6 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C73CA62074D1BF9D22D7E47F3F05F04C /* UIImage+Compare.m */; };
+		90E1FD3A190769CEA0B63504D88C7DDF /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F666C5D7446DD6572AB1616F1E30AA /* FBSnapshotTestCase.m */; };
+		A18AB0E0A6B41F384C48365498A7B99F /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD10D07B64816335D075D437A535566 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A512A0FDCBA1411FFF43641017B586A2 /* Pods-HamburgerButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 972947897347EFEE474238C017C40BD4 /* Pods-HamburgerButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBCB339B6876210CB81CDC8C2AEF8708 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E19E3632FEF9B104B04B6B00253851C /* UIImage+Snapshot.m */; };
+		C0B7165ADF9662081DE5A260FC9C6824 /* HamburgerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDB417FCEBB965575338A496A1AAD4 /* HamburgerButton-dummy.m */; };
+		CF04850F3DF1E9B1C22F59F9A881CA92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1AA8D42F800A1B996AF97D8B9FFE5B /* XCTest.framework */; };
+		D8916754747FBAF3A987C07826AA8FA8 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106F0533C6623B74EDB227C8FC027B8E /* FBSnapshotTestCase-dummy.m */; };
+		FF4A2B692DF2C6B70CFCC181FAFD42A8 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B427624CBD5B62469F66AC43A5D82C7D /* FBSnapshotTestController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF05D6F9EB5D29D19D96CD8E09D73F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E3C8454E430B57F66B650B070436F8;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		80E80952A2808DFD37A99A68D92A6FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A2E331B17AB8F4B78978C1A9170187;
+			remoteInfo = HamburgerButton;
+		};
+		896664CAA6BBF4886DA07AF20DD2A5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A2E331B17AB8F4B78978C1A9170187;
+			remoteInfo = HamburgerButton;
+		};
+		BCED431185E74B90B6ED5A0FD8752218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D24EE87757ECA2870EA6F2B1714AD;
+			remoteInfo = "HamburgerButton-HamburgerButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B5ECBFF76124646668783FA77197F6 /* HamburgerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamburgerButton-umbrella.h"; sourceTree = "<group>"; };
+		08CA195396AAF16773B02157E6038191 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		106F0533C6623B74EDB227C8FC027B8E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		13F9DB71C70CA0E85A5F0547A3597E3C /* Pods_HamburgerButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamburgerButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14824E604F439019DACCD607B0CA660E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE8E61523E195B79AF379E1E7AF0D53 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		257154AF1EC32B1CFF664D8EC2FDB636 /* Pods-HamburgerButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HamburgerButton_Tests.modulemap"; sourceTree = "<group>"; };
+		2F1AA8D42F800A1B996AF97D8B9FFE5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		413DF9CB4DCDFF1505BAFA009CF49F27 /* HamburgerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HamburgerButton.modulemap; sourceTree = "<group>"; };
+		469D88E90A130481766EEE004A0925FD /* Pods-HamburgerButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamburgerButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		4C9DB4DA9DBEBDA43C5436275C4311D7 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A8F43B5A8C25FE501B3085B04E59978 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		5D95B12EE01FCD41FA1A4E2EE9EBCF9F /* Pods-HamburgerButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamburgerButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F12C8BD763B2658352EF9AF2E657CC6 /* Pods-HamburgerButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamburgerButton_Example-dummy.m"; sourceTree = "<group>"; };
+		62047B34C8834B6FEF7C1CFDF302EF07 /* Pods-HamburgerButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamburgerButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		62ED241CD5B3D0C857D0D4547192F2A7 /* Pods-HamburgerButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamburgerButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		65F666C5D7446DD6572AB1616F1E30AA /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		68A040D41B6F79F400F5A8C9 /* LBHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHamburgerButton.m; sourceTree = "<group>"; };
+		68A040D81B6F7A1100F5A8C9 /* LBHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHamburgerButton.h; sourceTree = "<group>"; };
+		6AD10D07B64816335D075D437A535566 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		6EDB3F182EE21701574EACF70E15271B /* Pods-HamburgerButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HamburgerButton_Example.modulemap"; sourceTree = "<group>"; };
+		714626102659630456832C4A58C340DD /* Pods-HamburgerButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HamburgerButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		731545587BE276FB10A5586389E9CAF2 /* Pods-HamburgerButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamburgerButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76F81BFFCB8C34D40F36B2C468207F69 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		77E23C46F71076CF4B5EACD488322C34 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		811B47B130BD9A62E09567FE8FCB0796 /* Pods-HamburgerButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamburgerButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B1CF639B3C3F3624FA206999B56B0F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9008155BDFCCA40E8323C0B32BD6C36B /* HamburgerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HamburgerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947EDA8B98AB434928FAFC655DB528D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972947897347EFEE474238C017C40BD4 /* Pods-HamburgerButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HamburgerButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9E19E3632FEF9B104B04B6B00253851C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		9FCDBB94ED71F92D65F506A60ED28FCC /* Pods-HamburgerButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HamburgerButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A86F994476C37044187A36076E71009B /* Pods-HamburgerButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamburgerButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF425CDB60D53E7418590A03B490F634 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		B018B99C96DEFBF4E2115361CBFDA031 /* HamburgerButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B427624CBD5B62469F66AC43A5D82C7D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		B6EE77B3672BAEABAA1B4DB3744A1B06 /* Pods_HamburgerButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamburgerButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47052B645BFA4E9EA2C1091C1B8C0B /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB24C554084930B91B11848797894844 /* HamburgerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamburgerButton-prefix.pch"; sourceTree = "<group>"; };
+		C0412153695F6CE8364A34919B830ABF /* Pods-HamburgerButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamburgerButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		C73CA62074D1BF9D22D7E47F3F05F04C /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HamburgerButton-Private.xcconfig"; sourceTree = "<group>"; };
+		CDFDB417FCEBB965575338A496A1AAD4 /* HamburgerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HamburgerButton-dummy.m"; sourceTree = "<group>"; };
+		D5941B99E2DCD9F3DF38C30ED76BA164 /* HamburgerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HamburgerButton.xcconfig; sourceTree = "<group>"; };
+		E248B6CF37B39A927724C986E981F7D8 /* Pods-HamburgerButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HamburgerButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3F6C51A8C61821D51FB13B8CA1A6567 /* Pods-HamburgerButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamburgerButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E49543E9FC8F1146CEAFD27D68DB0A01 /* Pods-HamburgerButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamburgerButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		EE231B86E665BE7FAA63E753D06321D4 /* Pods-HamburgerButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamburgerButton_Example-resources.sh"; sourceTree = "<group>"; };
+		EFE04F01AB5AFE6DB969F3254FCA23AC /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		F468BFA5D26D1C563E9F8087AE7FDBD5 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		FF7CE48EFAD9A3CEA07D7F2958DC224F /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B54F50D61A801D84473A578EAA23648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4DCDBEEBAB580D56C69715680B9F62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2856E64C9B205FF009D405E755612CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BCF607F3A15B367DEAFDDD24430249 /* Foundation.framework in Frameworks */,
+				CF04850F3DF1E9B1C22F59F9A881CA92 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564319DA63E0C4968134500131A020FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427DB164362AB28B424EDBD75CE6B114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E705B70C45F13D3FE5FB652BB8BDD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F86F7C428FF4AA7A059F25EC87B033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F04AF4E596D897E56105B7BB0A2CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8CC87DDEE0ADE5BD022FDF57E1A253 /* Pods-HamburgerButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14824E604F439019DACCD607B0CA660E /* Info.plist */,
+				257154AF1EC32B1CFF664D8EC2FDB636 /* Pods-HamburgerButton_Tests.modulemap */,
+				E248B6CF37B39A927724C986E981F7D8 /* Pods-HamburgerButton_Tests-acknowledgements.markdown */,
+				62047B34C8834B6FEF7C1CFDF302EF07 /* Pods-HamburgerButton_Tests-acknowledgements.plist */,
+				811B47B130BD9A62E09567FE8FCB0796 /* Pods-HamburgerButton_Tests-dummy.m */,
+				A86F994476C37044187A36076E71009B /* Pods-HamburgerButton_Tests-frameworks.sh */,
+				C0412153695F6CE8364A34919B830ABF /* Pods-HamburgerButton_Tests-resources.sh */,
+				972947897347EFEE474238C017C40BD4 /* Pods-HamburgerButton_Tests-umbrella.h */,
+				469D88E90A130481766EEE004A0925FD /* Pods-HamburgerButton_Tests.debug.xcconfig */,
+				731545587BE276FB10A5586389E9CAF2 /* Pods-HamburgerButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-HamburgerButton_Tests";
+			path = "Target Support Files/Pods-HamburgerButton_Tests";
+			sourceTree = "<group>";
+		};
+		40BE61F5DE3FFCAEFFC65F28BCCD5CA3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2ED9DD364515FF55A35B0F3C39A1A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672D1320B537524AB3A5A6B59F3A0AB5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52AE899D8B5E82245C5406997506EDFD /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				78B8B06429C9DADE35340BE6C4B7C020 /* Core */,
+				ECB35126A6E5AC04DA6E5CFD5988508A /* Support Files */,
+				C0D3A88223D43E2EE28E545D73C4CC1C /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		65A731238945A624B79D67A6022DFD6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BF7210C5519DA2AE7674A5C182273C /* Pods-HamburgerButton_Example */,
+				3A8CC87DDEE0ADE5BD022FDF57E1A253 /* Pods-HamburgerButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		672D1320B537524AB3A5A6B59F3A0AB5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EE2B5000D752EF3F63A134C2C1960C4 /* Foundation.framework */,
+				2F1AA8D42F800A1B996AF97D8B9FFE5B /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78B8B06429C9DADE35340BE6C4B7C020 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6AD10D07B64816335D075D437A535566 /* FBSnapshotTestCase.h */,
+				65F666C5D7446DD6572AB1616F1E30AA /* FBSnapshotTestCase.m */,
+				EFE04F01AB5AFE6DB969F3254FCA23AC /* FBSnapshotTestCasePlatform.h */,
+				76F81BFFCB8C34D40F36B2C468207F69 /* FBSnapshotTestCasePlatform.m */,
+				08CA195396AAF16773B02157E6038191 /* FBSnapshotTestController.h */,
+				B427624CBD5B62469F66AC43A5D82C7D /* FBSnapshotTestController.m */,
+				77E23C46F71076CF4B5EACD488322C34 /* UIImage+Compare.h */,
+				C73CA62074D1BF9D22D7E47F3F05F04C /* UIImage+Compare.m */,
+				FF7CE48EFAD9A3CEA07D7F2958DC224F /* UIImage+Diff.h */,
+				BA47052B645BFA4E9EA2C1091C1B8C0B /* UIImage+Diff.m */,
+				5A8F43B5A8C25FE501B3085B04E59978 /* UIImage+Snapshot.h */,
+				9E19E3632FEF9B104B04B6B00253851C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				DC8592AFE0A804EE0A7BE013E9E40E49 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				65A731238945A624B79D67A6022DFD6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D66CFA44F253AA421AEF649AC84EBD /* HamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				40BE61F5DE3FFCAEFFC65F28BCCD5CA3 /* Pod */,
+				B379CA72A7AB83E27136BD2BFE073B6C /* Support Files */,
+			);
+			name = HamburgerButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B379CA72A7AB83E27136BD2BFE073B6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				413DF9CB4DCDFF1505BAFA009CF49F27 /* HamburgerButton.modulemap */,
+				D5941B99E2DCD9F3DF38C30ED76BA164 /* HamburgerButton.xcconfig */,
+				CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */,
+				CDFDB417FCEBB965575338A496A1AAD4 /* HamburgerButton-dummy.m */,
+				BB24C554084930B91B11848797894844 /* HamburgerButton-prefix.pch */,
+				05B5ECBFF76124646668783FA77197F6 /* HamburgerButton-umbrella.h */,
+				947EDA8B98AB434928FAFC655DB528D6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HamburgerButton";
+			sourceTree = "<group>";
+		};
+		BBD2ED9DD364515FF55A35B0F3C39A1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68A040D81B6F7A1100F5A8C9 /* LBHamburgerButton.h */,
+				68A040D41B6F79F400F5A8C9 /* LBHamburgerButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0D3A88223D43E2EE28E545D73C4CC1C /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				AF425CDB60D53E7418590A03B490F634 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE8E61523E195B79AF379E1E7AF0D53 /* FBSnapshotTestCase.framework */,
+				B018B99C96DEFBF4E2115361CBFDA031 /* HamburgerButton.bundle */,
+				9008155BDFCCA40E8323C0B32BD6C36B /* HamburgerButton.framework */,
+				13F9DB71C70CA0E85A5F0547A3597E3C /* Pods_HamburgerButton_Example.framework */,
+				B6EE77B3672BAEABAA1B4DB3744A1B06 /* Pods_HamburgerButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8592AFE0A804EE0A7BE013E9E40E49 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D66CFA44F253AA421AEF649AC84EBD /* HamburgerButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E5BF7210C5519DA2AE7674A5C182273C /* Pods-HamburgerButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B1CF639B3C3F3624FA206999B56B0F6 /* Info.plist */,
+				6EDB3F182EE21701574EACF70E15271B /* Pods-HamburgerButton_Example.modulemap */,
+				714626102659630456832C4A58C340DD /* Pods-HamburgerButton_Example-acknowledgements.markdown */,
+				E49543E9FC8F1146CEAFD27D68DB0A01 /* Pods-HamburgerButton_Example-acknowledgements.plist */,
+				5F12C8BD763B2658352EF9AF2E657CC6 /* Pods-HamburgerButton_Example-dummy.m */,
+				62ED241CD5B3D0C857D0D4547192F2A7 /* Pods-HamburgerButton_Example-frameworks.sh */,
+				EE231B86E665BE7FAA63E753D06321D4 /* Pods-HamburgerButton_Example-resources.sh */,
+				9FCDBB94ED71F92D65F506A60ED28FCC /* Pods-HamburgerButton_Example-umbrella.h */,
+				E3F6C51A8C61821D51FB13B8CA1A6567 /* Pods-HamburgerButton_Example.debug.xcconfig */,
+				5D95B12EE01FCD41FA1A4E2EE9EBCF9F /* Pods-HamburgerButton_Example.release.xcconfig */,
+			);
+			name = "Pods-HamburgerButton_Example";
+			path = "Target Support Files/Pods-HamburgerButton_Example";
+			sourceTree = "<group>";
+		};
+		ECB35126A6E5AC04DA6E5CFD5988508A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */,
+				E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */,
+				4C9DB4DA9DBEBDA43C5436275C4311D7 /* FBSnapshotTestCase-Private.xcconfig */,
+				106F0533C6623B74EDB227C8FC027B8E /* FBSnapshotTestCase-dummy.m */,
+				A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */,
+				F468BFA5D26D1C563E9F8087AE7FDBD5 /* FBSnapshotTestCase-umbrella.h */,
+				ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52AE899D8B5E82245C5406997506EDFD /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C8E797A4F24E32F97D3A0C66B53CE9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515E48BEDF072BF53F877B9D209C08A2 /* Pods-HamburgerButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D8A5FA8E3D8ABA1A9CBCA1E325B3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122066F54AB32EC9C70FF010078E2BFC /* FBSnapshotTestCase-umbrella.h in Headers */,
+				A18AB0E0A6B41F384C48365498A7B99F /* FBSnapshotTestCase.h in Headers */,
+				5A77C5F8806CD8AB6551AA900C5B903D /* FBSnapshotTestCasePlatform.h in Headers */,
+				8058472FCDFCD7BC08B86B402703D764 /* FBSnapshotTestController.h in Headers */,
+				705635138A2651EC4E1DDA39EB49F7E5 /* UIImage+Compare.h in Headers */,
+				859A75A6F732CA92DDDAF17F8BD36EC3 /* UIImage+Diff.h in Headers */,
+				779EEFAADC9462CC073AC24DF06C579E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9BE5761ED9379693735214E191A342 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A040D91B6F7A1100F5A8C9 /* LBHamburgerButton.h in Headers */,
+				70AF9768A079CE1332666E1F4DED6B90 /* HamburgerButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D389A034AB72F55BCA55C0CDB401A7A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A512A0FDCBA1411FFF43641017B586A2 /* Pods-HamburgerButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1894885213A4F562D91EF8E37E3E2F5E /* Pods-HamburgerButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779076A281C41549230F89FBD1BB68C9 /* Build configuration list for PBXNativeTarget "Pods-HamburgerButton_Tests" */;
+			buildPhases = (
+				AC9854AC23BDD87634B62D5204F1C4D1 /* Sources */,
+				5E705B70C45F13D3FE5FB652BB8BDD85 /* Frameworks */,
+				D389A034AB72F55BCA55C0CDB401A7A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73690DAF65B31502BF0B5C24C45D9D37 /* PBXTargetDependency */,
+				B8B9E8D7823A879FE5350903C4B8042F /* PBXTargetDependency */,
+			);
+			name = "Pods-HamburgerButton_Tests";
+			productName = "Pods-HamburgerButton_Tests";
+			productReference = B6EE77B3672BAEABAA1B4DB3744A1B06 /* Pods_HamburgerButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		835CA8410E338A12179CE4AE3052A2B2 /* Pods-HamburgerButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31DCCDD46AA5BFFB60F517865EC7152 /* Build configuration list for PBXNativeTarget "Pods-HamburgerButton_Example" */;
+			buildPhases = (
+				14BD130DED634CD187FD09647F6F8277 /* Sources */,
+				564319DA63E0C4968134500131A020FE /* Frameworks */,
+				2C8E797A4F24E32F97D3A0C66B53CE9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8759343A5133AF92F78B1CB6946272 /* PBXTargetDependency */,
+			);
+			name = "Pods-HamburgerButton_Example";
+			productName = "Pods-HamburgerButton_Example";
+			productReference = 13F9DB71C70CA0E85A5F0547A3597E3C /* Pods_HamburgerButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5E3C8454E430B57F66B650B070436F8 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402DF0CF18F8F970679E91754B3ADAA9 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				39972E59A680967AA2AF46CFDF9339D4 /* Sources */,
+				2856E64C9B205FF009D405E755612CDF /* Frameworks */,
+				406D8A5FA8E3D8ABA1A9CBCA1E325B3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 1DE8E61523E195B79AF379E1E7AF0D53 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38D24EE87757ECA2870EA6F2B1714AD /* HamburgerButton-HamburgerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839BAC4FC28918A9A881273CB516A92 /* Build configuration list for PBXNativeTarget "HamburgerButton-HamburgerButton" */;
+			buildPhases = (
+				E383DCCB69DA7D629DA43096D05C68E9 /* Sources */,
+				A6F04AF4E596D897E56105B7BB0A2CAF /* Frameworks */,
+				CE0472F3FD7D06F1A1EF619A53C1BBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HamburgerButton-HamburgerButton";
+			productName = "HamburgerButton-HamburgerButton";
+			productReference = B018B99C96DEFBF4E2115361CBFDA031 /* HamburgerButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E8A2E331B17AB8F4B78978C1A9170187 /* HamburgerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5886673B63068CE7318380CA4706C05 /* Build configuration list for PBXNativeTarget "HamburgerButton" */;
+			buildPhases = (
+				CB425D55471D032B5CDC0A2C3CEB2068 /* Sources */,
+				1B54F50D61A801D84473A578EAA23648 /* Frameworks */,
+				CD6E0D3A855D1C059FF5FB40EC530547 /* Resources */,
+				CF9BE5761ED9379693735214E191A342 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EF3BE72F15D0F792823CCE6B179AA9 /* PBXTargetDependency */,
+			);
+			name = HamburgerButton;
+			productName = HamburgerButton;
+			productReference = 9008155BDFCCA40E8323C0B32BD6C36B /* HamburgerButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E3C8454E430B57F66B650B070436F8 /* FBSnapshotTestCase */,
+				E8A2E331B17AB8F4B78978C1A9170187 /* HamburgerButton */,
+				B38D24EE87757ECA2870EA6F2B1714AD /* HamburgerButton-HamburgerButton */,
+				835CA8410E338A12179CE4AE3052A2B2 /* Pods-HamburgerButton_Example */,
+				1894885213A4F562D91EF8E37E3E2F5E /* Pods-HamburgerButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6E0D3A855D1C059FF5FB40EC530547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7F951B9C84228107DCF5FE532990C7 /* HamburgerButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0472F3FD7D06F1A1EF619A53C1BBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BD130DED634CD187FD09647F6F8277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C5ED9602D45B2B9AB3A61AD6085BD4 /* Pods-HamburgerButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39972E59A680967AA2AF46CFDF9339D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8916754747FBAF3A987C07826AA8FA8 /* FBSnapshotTestCase-dummy.m in Sources */,
+				90E1FD3A190769CEA0B63504D88C7DDF /* FBSnapshotTestCase.m in Sources */,
+				7163D6C2D4E42DE2E0030D74736DEA86 /* FBSnapshotTestCasePlatform.m in Sources */,
+				FF4A2B692DF2C6B70CFCC181FAFD42A8 /* FBSnapshotTestController.m in Sources */,
+				17FF1BF851F42CCE7CEA1A3573781AF4 /* SwiftSupport.swift in Sources */,
+				8CB94E6CEB3C70DA9A522B69D44377C6 /* UIImage+Compare.m in Sources */,
+				7BC6D15A2C4F2757D7164D9973F56BBD /* UIImage+Diff.m in Sources */,
+				BBCB339B6876210CB81CDC8C2AEF8708 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9854AC23BDD87634B62D5204F1C4D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D493B12A413B4971E66AEBD2DF7384 /* Pods-HamburgerButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB425D55471D032B5CDC0A2C3CEB2068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B7165ADF9662081DE5A260FC9C6824 /* HamburgerButton-dummy.m in Sources */,
+				68A040D61B6F79F400F5A8C9 /* LBHamburgerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E383DCCB69DA7D629DA43096D05C68E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73690DAF65B31502BF0B5C24C45D9D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = A5E3C8454E430B57F66B650B070436F8 /* FBSnapshotTestCase */;
+			targetProxy = 5DF05D6F9EB5D29D19D96CD8E09D73F8 /* PBXContainerItemProxy */;
+		};
+		B1EF3BE72F15D0F792823CCE6B179AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HamburgerButton-HamburgerButton";
+			target = B38D24EE87757ECA2870EA6F2B1714AD /* HamburgerButton-HamburgerButton */;
+			targetProxy = BCED431185E74B90B6ED5A0FD8752218 /* PBXContainerItemProxy */;
+		};
+		B8B9E8D7823A879FE5350903C4B8042F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HamburgerButton;
+			target = E8A2E331B17AB8F4B78978C1A9170187 /* HamburgerButton */;
+			targetProxy = 80E80952A2808DFD37A99A68D92A6FCB /* PBXContainerItemProxy */;
+		};
+		CD8759343A5133AF92F78B1CB6946272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HamburgerButton;
+			target = E8A2E331B17AB8F4B78978C1A9170187 /* HamburgerButton */;
+			targetProxy = 896664CAA6BBF4886DA07AF20DD2A5A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1E73431A253C332B71E004A30EBF9224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F6C51A8C61821D51FB13B8CA1A6567 /* Pods-HamburgerButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HamburgerButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HamburgerButton_Example/Pods-HamburgerButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HamburgerButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52B566C968256DA4F6E14D86623FF392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469D88E90A130481766EEE004A0925FD /* Pods-HamburgerButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HamburgerButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HamburgerButton_Tests/Pods-HamburgerButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HamburgerButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		541CF04F57DBC0A4C56518DECACC621A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731545587BE276FB10A5586389E9CAF2 /* Pods-HamburgerButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HamburgerButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HamburgerButton_Tests/Pods-HamburgerButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HamburgerButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62B0A04D8B13C57BE6E5204F9BFCD976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HamburgerButton/HamburgerButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamburgerButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamburgerButton/HamburgerButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HamburgerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ED677F20E4DD731C8698E44C60C7BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HamburgerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7FC9F47C973C41C10CBBAB8624EA1025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HamburgerButton/HamburgerButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamburgerButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamburgerButton/HamburgerButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HamburgerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92CFA2F50A90ECA8CB3DDEE37FED101D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9DB4DA9DBEBDA43C5436275C4311D7 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAC6577D0C56D618DE1F8F282AD6FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9DB4DA9DBEBDA43C5436275C4311D7 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8B02B951F2A5DAD755F9E690DCFAFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D95B12EE01FCD41FA1A4E2EE9EBCF9F /* Pods-HamburgerButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HamburgerButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HamburgerButton_Example/Pods-HamburgerButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HamburgerButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB403428C48336B397FF764ECA6AF4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2E0510976255F0AEA88974A5B7E8F8 /* HamburgerButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HamburgerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1839BAC4FC28918A9A881273CB516A92 /* Build configuration list for PBXNativeTarget "HamburgerButton-HamburgerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED677F20E4DD731C8698E44C60C7BDA /* Debug */,
+				EB403428C48336B397FF764ECA6AF4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402DF0CF18F8F970679E91754B3ADAA9 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAC6577D0C56D618DE1F8F282AD6FC9 /* Debug */,
+				92CFA2F50A90ECA8CB3DDEE37FED101D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779076A281C41549230F89FBD1BB68C9 /* Build configuration list for PBXNativeTarget "Pods-HamburgerButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B566C968256DA4F6E14D86623FF392 /* Debug */,
+				541CF04F57DBC0A4C56518DECACC621A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5886673B63068CE7318380CA4706C05 /* Build configuration list for PBXNativeTarget "HamburgerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9F47C973C41C10CBBAB8624EA1025 /* Debug */,
+				62B0A04D8B13C57BE6E5204F9BFCD976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31DCCDD46AA5BFFB60F517865EC7152 /* Build configuration list for PBXNativeTarget "Pods-HamburgerButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E73431A253C332B71E004A30EBF9224 /* Debug */,
+				B8B02B951F2A5DAD755F9E690DCFAFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

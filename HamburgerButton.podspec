@@ -10,18 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "HamburgerButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HamburgerButton."
-  s.description      = <<-DESC
-                       An optional longer description of HamburgerButton
+  s.summary          = "Is a fork of original repository https://github.com/luongbang152/HamburgerButton with Pod support"
+s.description      = "LBHamburgerButton is an iOS control that displays 3 lines (hamburger) and other icon (back, close...) without using image. It has a beautiful, clean and smooth transition between 2 state like Google Material Design or \"close button\" of Paper app."
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HamburgerButton"
+  s.homepage         = "https://github.com/giuseppenucifora/HamburgerButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Giuseppe Nucifora" => "me@giuseppenucifora.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HamburgerButton.git", :tag => s.version.to_s }
+  s.author           = { "Giuseppe Nucifora" => "Giuseppe Nucifora" }
+  s.source           = { :git => "https://github.com/giuseppenucifora/HamburgerButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -33,6 +29,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'QuartzCore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

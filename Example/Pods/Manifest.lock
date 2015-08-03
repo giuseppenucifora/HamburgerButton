@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - HamburgerButton (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HamburgerButton (from `../`)
+
+EXTERNAL SOURCES:
+  HamburgerButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  HamburgerButton: 7c98f3258cc3b794872532fe825da3ef797adbb3
+
+COCOAPODS: 0.38.2

@@ -8,5 +8,4 @@ end
 target 'HamburgerButton_Tests', :exclusive => true do
   pod "HamburgerButton", :path => "../"
 
-  pod 'FBSnapshotTestCase'
 end
